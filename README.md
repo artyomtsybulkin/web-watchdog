@@ -22,6 +22,12 @@ For better understnding you can check default Zabbix Templates, for example "Tem
 
 ### Configuration
 ---
+Download and install using [GitHub CLI](https://cli.github.com/)
+```bash
+gh repo clone artyomtsybulkin/web-watchdog
+cd web-watchdog/
+npm update && npm install
+```
 First `config.json` file must be created in service directory. Example content below.
 ```json
 {
@@ -29,6 +35,11 @@ First `config.json` file must be created in service directory. Example content b
     "ipinfo_key": "xxxx",
     "port": 3500
 }
+```
+Run as service via pm2:
+```bash
+npm install pm2@latest -g
+pm2 start index.js
 ```
 ### Example usage
 ---
