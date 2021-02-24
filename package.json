@@ -1,0 +1,31 @@
+{
+  "name": "web-watchdog",
+  "version": "1.0.0",
+  "description": "Whois and IP info low level REST API with JSON responses",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomtsybulkin/web-watchdog.git"
+  },
+  "keywords": [
+    "ipinfo",
+    "json",
+    "whois",
+    "express"
+  ],
+  "author": "Artyom Tsybulkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artyomtsybulkin/web-watchdog/issues"
+  },
+  "homepage": "https://github.com/artyomtsybulkin/web-watchdog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-ipinfo": "^2.0.1"
+  }
+}
