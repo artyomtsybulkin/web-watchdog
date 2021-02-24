@@ -105,3 +105,4 @@ dist
 
 # Project custom
 config.json
+flat.cache

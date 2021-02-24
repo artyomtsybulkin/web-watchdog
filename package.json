@@ -25,6 +25,7 @@
   "homepage": "https://github.com/artyomtsybulkin/web-watchdog#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "flat-cache": "^3.0.4",
     "node-fetch": "^2.6.1",
     "node-ipinfo": "^2.0.1"
   }
